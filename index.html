@@ -4,11 +4,11 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>Ten essential Unix commands</title>
+		<title>RSSchool final project presentation</title>
 
 		<link rel="stylesheet" href="dist/reset.css">
 		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/serif.css">
+		<link rel="stylesheet" href="dist/theme/moon.css">
 
 		<!-- Theme used for syntax highlighted code -->
 		<link rel="stylesheet" href="plugin/highlight/monokai.css">
@@ -17,172 +17,281 @@
 		<div class="reveal">
 			<div class="slides">
 				<section>
-					<img src="./assets/UnixMainView.jpg" alt="">
-				</section>
-				<section>
-					<section><img src="./assets/Linux.png" alt=""><p style="height: 20px; font-size: 14px; margin: 0;">Linux logo</p></section>
-					<section><img src="./assets/MacOSLogo.png" alt="" style="width: 70%;"><p style="height: 20px; font-size: 14px; margin: 0;">MacOS logo</p></section>
-					<section><img src="./assets/BSD.jpg" alt=""><p style="height: 20px; font-size: 14px; margin: 0;">BSD logo</p></section>
-				</section>
-				<section>
-					<h3>Some Unix-like systems<br>usage in numbers:</h3>
+					<h2>Async-await</h2>
 					<br>
-					<p>96% of servers run on Linux</p>
-					<p>2% of servers run on BSD</p>
-					<p>17% of desktops in the world are running on Mac</p>
+					<h3>Better than a promise :D</h3>
+				</section>
+				<section data-transition="fade">
+					<h3>Our dream team:</h3>
+					<div style="display: flex; justify-content: space-around;">
+						<div style="font-size: 16px; width: 300px;">
+							<div>
+								<img style="width: 200px;"src="./assets/Oleksii_Drohachov.jpg" alt="">
+							</div>
+							<p style="font-weight: 600; font-size: 20px;">Oleksii Drohachov</p>
+							<p>Switcher from medical field. The old man</p>
+							<ul style="list-style: '- '; width: 100%;">
+								<li>Set up initial repository</li>
+								<li>Team multitool</li>
+								<li>Main layout and front end logic</li>
+							</ul>
+						</div>
+						<div style="font-size: 16px; width: 300px;">
+							<div>
+								<img style="width: 200px;"src="./assets/Oleksii_Drohachov.jpg" alt="">
+							</div>
+							<p style="font-weight: 600; font-size: 20px;">Oleksii Drohachov</p>
+							<p>Switcher from medical field. The old man</p>
+							<ul style="list-style: '- '; width: 100%;">
+								<li>Set up initial repository</li>
+								<li>Team multitool</li>
+								<li>Main layout and front end logic</li>
+							</ul>
+						</div>
+						<div style="font-size: 16px; width: 300px;">
+							<div>
+								<img style="width: 200px;"src="./assets/Oleksii_Drohachov.jpg" alt="">
+							</div>
+							<p style="font-weight: 600; font-size: 20px;">Oleksii Drohachov</p>
+							<p>Switcher from medical field. The old man</p>
+							<ul style="list-style: '- '; width: 100%;">
+								<li>Set up initial repository</li>
+								<li>Team multitool</li>
+								<li>Main layout and front end logic</li>
+							</ul>
+						</div>
+					</div>
 				</section>
 				<section>
-					<h3>Ten Essential Unix Commands</h3>
-					<table style="width: 100%; text-align: center;" >
-						<thead>
-							<tr>
-								<th style="width: 10%;">Command</th>
-								<th style="width: 30%;">Example</th>
-								<th style="width: 60%;">Usage</th>
-							</tr>
-						</thead>
-						<tbody style="font-size: 16px; font-weight: bold;">
-							<tr>
-								<td>man</td>
-								<td>man pwd</td>
-								<td>The '$man' command stands for 'manual' and it can display the in-built manual for most of the commands that we ever need.</td>
-							</tr>
-							<tr>
-								<td>pwd</td>
-								<td>pwd</td>
-								<td>The '$pwd' command stands for 'print working directory' and as the name says, it displays the directory in which we are currently.</td>
-							</tr>
-							<tr>
-								<td>cd</td>
-								<td>cd newfolder</td>
-								<td>The '$cd' command stands for 'change directory' and it changes your current directory to the 'newfolder' directory.</td>
-							</tr>
-							<tr>
-								<td>ls</td>
-								<td>ls</td>
-								<td>The '$ls' command simply displays the contents of a directory.</td>
-							</tr>
-							<tr>
-								<td>touch</td>
-								<td>touch notations.txt</td>
-								<td>The '$touch' command simply creates a file with specified name and extension.</td>
-							</tr>
-						</tbody>
-					</table>
-				</section>
-				<section>
-					<table style="width: 100%; text-align: center;" >
-						<thead>
-							<tr>
-								<th style="width: 10%;">Command</th>
-								<th style="width: 30%;">Example</th>
-								<th style="width: 60%;">Usage</th>
-							</tr>
-						</thead>
-						<tbody style="font-size: 16px; font-weight: bold;">
-							<tr>
-								<td>cat</td>
-								<td>cat notations.txt</td>
-								<td>The '$cat' stands for concatenate. Reads data from the file and gives its content as output</td>
-							</tr>
-							<tr>
-								<td>nano</td>
-								<td>nano notations.txt</td>
-								<td>The '$nano' simply opens text file in text redactor nano.</td>
-							</tr>
-							<tr>
-								<td>rm</td>
-								<td>rm file.txt</td>
-								<td>The '$ rm ' command for removing the file.</td>
-							</tr>
-							<tr>
-								<td>mkdir</td>
-								<td>mkdir newFolder</td>
-								<td>The '$ mkdir' command creates a new folder with specified name</td>
-							</tr>
-							<tr>
-								<td>cp</td>
-								<td>cp /home/folder/notations.txt /home/anotherFolder</td>
-								<td>This '$ cp ' command stands for 'copy' and it simply copy/paste the file wherever you want to.</td>
-							</tr>
-						</tbody>
-					</table>
+					<div style="width: max-content; margin: 0 auto;">
+						<h3>Teamwork organization:</h3>	
+						<h4 style="width: 100%; text-align: left; padding-left: 40px; margin-top: 50px;">Communication channels:</h4>
+						<ul style="list-style: '- '; font-size: 22px; width: 100%; text-align: left;padding-left: 80px;">
+							<li style="margin-top: 10px;">Github projects</li>
+							<li style="margin-top: 10px;">Meet ups in discord 3x times a week</li>
+							<li style="margin-top: 10px;">Project in Figma</li>
+							<li style="margin-top: 10px;">Emergency calls</li>
+							<li style="margin-top: 10px;">Text communication in TG chat</li>
+						</ul>
+					</div>
 				</section>
 				<section>
 					<section>
-						<p>The 'man' command stands for 'manual' and can display the manual for the most commands in Linux</p>
-						<img src="./assets/Man preview.jpg" alt="">
+						<div style="width: 800px; box-sizing: border-box; object-fit: contain; position: relative; margin: 0 auto">
+							<img class="fragment fade-up" src="./assets/GH_workflows.jpg" alt="">
+							<img class="fragment fade-up" style="position: absolute; left: 300px; top: 200px; width: 500px;" src="./assets/GH_project.jpg" alt="">
+							<img class="fragment fade-up" style="position: absolute; left: 0; top: 350px; width: 500px;" src="./assets/GH_PRs.jpg" alt="">
+						</div>
 					</section>
 					<section>
-						<img src="./assets/Man full.jpg" alt="">
+						<img src="./assets/GH_actions.jpg" alt="">
 					</section>
 				</section>
 				<section>
-					<p>The '$pwd' command stands for 'print working directory'. Displays the directory in which we are currently.</p>
-					<img src="./assets/Pwd_preview.jpg" alt="">
+					<section><img src="./assets/Figma_1.jpg" alt=""></section>
+					<section><img src="./assets/Figma_2.jpg" alt=""></section>
+				</section>
+				<section>
+					<h3>Tech stack:</h3>
+					<ul style="list-style: none;">
+						<li>Type Script - <span style="font-size: 30px;">language</span></li>
+						<li>Vite - <span style="font-size: 30px;">bundler</span></li>
+						<li>React - <span style="font-size: 30px;">framework</span></li>
+						<li>Redux Toolkit - <span style="font-size: 30px;">state manager</span></li>
+						<li>Tailwind - <span style="font-size: 30px;">css framework</span></li>
+						<li>Feature sliced design - <span style="font-size: 30px;">methodology</span></li>                                                            
+					</ul>
+				</section>
+				<section>
+					<h3>Secondary instruments:</h3>
+						<ul style="list-style: none;">
+							<li>
+								Formik, Yup
+							</li>
+							<li>Swiper</li>
+							<li>Framer motion</li>
+							<li>Eslint, prettier, editorconfig, husky</li>
+						</ul>
+				</section>
+				<section>
+					<h3>Vite</h3>
+					<div style="display: flex; margin: 0 auto"> 
+						<div style="width: 50%;">
+							<h4 style="color: green">Pros:</h4>
+							<ul style="list-style: none; font-size: 24px;">
+								<li>speed</li>
+								<li>simplicity</li>
+								<li>performance</li>
+								<li>hot module replacement</li>
+								<li>everything works out of the box</li>
+							</ul>
+						</div>
+						<div style="width: 50%;">
+							<h4 style="color: red">Cons:</h4>
+							<ul style="list-style: none; font-size: 24px">
+								<li>smaller user community?</li>
+								<li>limited browser support</li>
+								<li>limited production build features</li>
+							</ul>
+						</div>
+					</div>
+				</section>
+				<section>
+					<h3>Type Script</h3>
+					<div style="display: flex; margin: 0 auto"> 
+						<div style="width: 50%;">
+							<h4 style="color: green">Pros:</h4>
+							<ul style="list-style: none; font-size: 24px;">
+								<li>static types</li>
+								<li>improved scalability</li>
+								<li>improved IntelliSense</li>
+								<li>better error handling</li>
+							</ul>
+						</div>
+						<div style="width: 50%;">
+							<h4 style="color: red">Cons:</h4>
+							<ul style="list-style: none; font-size: 24px">
+								<li>learning curve</li>
+								<li>increased complexity</li>
+								<li>compilation needs</li>
+							</ul>
+						</div>
+					</div>
+				</section>
+				<section>
+					<h3>React</h3>
+					<div style="display: flex; margin: 0 auto"> 
+						<div style="width: 50%;">
+							<h4 style="color: green">Pros:</h4>
+							<ul style="list-style: none; font-size: 24px;">
+								<li>reusable components</li>
+								<li>shadow DOM</li>
+								<li>large community</li>
+								<li>highly customizable</li>
+								<li>performance with large number of components</li>
+							</ul>
+						</div>
+						<div style="width: 50%;">
+							<h4 style="color: red">Cons:</h4>
+							<ul style="list-style: none; font-size: 24px">
+								<li>more code</li>
+								<li>more ugly code</li>
+							</ul>
+						</div>
+					</div>
+				</section>
+				<section>
+					<h3>Redux toolkit</h3>
+					<div style="display: flex; margin: 0 auto"> 
+						<div style="width: 50%;">
+							<h4 style="color: green">Pros:</h4>
+							<ul style="list-style: none; font-size: 24px;">
+								<li>centralized state</li>
+								<li>preserve page state</li>
+								<li>ecosystem</li>
+								<li>predictable state changes</li>
+							</ul>
+						</div>
+						<div style="width: 50%;">
+							<h4 style="color: red">Cons:</h4>
+							<ul style="list-style: none; font-size: 24px">
+								<li>complexity</li>
+								<li>verbosity</li>
+							</ul>
+						</div>
+					</div>
+				</section>
+				<section>
+					<h3>Tailwind</h3>
+					<div style="display: flex; margin: 0 auto"> 
+						<div style="width: 50%;">
+							<h4 style="color: green">Pros:</h4>
+							<ul style="list-style: none; font-size: 24px;">
+								<li>fewer class names</li>
+								<li>less code</li>
+								<li>safe refactoring</li>
+								<li>no zombies</li>
+							</ul>
+						</div>
+						<div style="width: 50%;">
+							<h4 style="color: red">Cons:</h4>
+							<ul style="list-style: none; font-size: 24px">
+								<li>ugly code</li>
+								<li>learning curve</li>
+								<li>non-standart</li>
+								<li>requires tooling</li>
+							</ul>
+						</div>
+					</div>
+				</section>
+				<section>
+					<h3>Feature sliced design</h3>
+					<div style="display: flex; margin: 0 auto"> 
+						<div style="width: 50%;">
+							<h4 style="color: green">Pros:</h4>
+							<ul style="list-style: none; font-size: 24px;">
+								<li>scalability</li>
+								<li>adaptability</li>
+								<li>standartization</li>
+								<li>stability with changes and refactoring</li>
+							</ul>
+						</div>
+						<div style="width: 50%;">
+							<h4 style="color: red">Cons:</h4>
+							<ul style="list-style: none; font-size: 24px">
+								<li>learning curve</li>
+								<li>more team discipline</li>
+								<li>hard at start</li>
+							</ul>
+						</div>
+					</div>
+				</section>
+				<section>
+					<div>
+						<img src="./assets/meme.jpg" alt="">
+					</div>
 				</section>
 				<section>
 					<section>
-						<p>The '$cd' command stands for 'change directory' and it changes your current directory to any directory you specify.</p>
-						<img src="./assets/Cd_preview_1.jpg" alt="">
-					</section>
-					<section><img src="./assets/Cd_preview_2.jpg" alt=""></section>
-					<section><img src="./assets/Cd_preview_3.jpg" alt=""></section>
-				</section>
-				<section>
-					<section>
-						<p>The '$ls' command simply displays the contents of a directory.</p>
-						<img src="./assets/Ls_preview.jpg" alt="">
+						<h3>You can't escape f*ckups :)</h3>
+						<div style="width: 600px; margin: 0 auto;">
+							<img src="./assets/Trouble_with_rtk.jpg" alt="">
+						</div>
 					</section>
 					<section>
-						<img src="./assets/LS_full.jpg" alt="">
-					</section>
-					<section>
-						<img src="./assets/Ls_preview_2.jpg" alt="">
-						<img src="./assets/LS_preview_3.jpg" alt="">
+						<div style="width: 600px; margin: 0 auto;">
+							<img src="./assets/Trouble_with_rtk_solved.jpg" alt="">
+						</div>
 					</section>
 				</section>
 				<section>
-					<p>The '$touch' command creates a file with specified name and extension.</p>
-					<img src="./assets/Touch_preview.jpg" alt="">
+					<div>
+						<img src="./assets/Layout bug.jpg" alt="">
+					</div>
 				</section>
 				<section>
-					<section><img src="./assets/Vim_logo.png" alt=""></section>
-					<section><img src="./assets/Vim_preview.png" alt=""></section>
+					<div>
+						<img src="./assets/Slider bug.jpg" alt="">
+					</div>
 				</section>
 				<section>
-					<section>
-						<p>The '$ nano' command with followed name of text file - open this file and allows to update it.</p>
-						<img src="./assets/Nano_preview_1.jpg" alt="">
-					</section>
-					<section>
-						<img src="./assets/Nano_full.jpg" alt="">
-					</section>
-					<section>
-						<img src="./assets/Nano_preview_2.jpg" alt="">
-					</section>
-					<section>
-						<img src="./assets/Nano_full_2.jpg" alt="">
-					</section>
+					<h2>Thank you very much for your attention!</h2>
+					<p>We are very grateful for this opportunity to study, grow, develop and be a part of community with RS School!</p>
+					<div style="display: flex; justify-content: space-between; margin-top: 100px;">
+						<div style="width: 90px;">
+							<a style="font-size: 20px; display: flex; align-items: center; background-color: #dddddd; width: 100%; justify-content: space-between; padding: 0 10px; border-radius: 5px; color: black;  height: 60px;" href="https://github.com/tedzury"><img src="./assets/github.svg" alt="">Oleksii</a>
+						</div>
+						<div style="width: 90px;">
+							<a style="font-size: 20px; display: flex; align-items: center; background-color: #dddddd; width: 100%; justify-content: space-between; padding: 0 10px; border-radius: 5px; color: black;  height: 60px;" href="https://github.com/quiddlee"><img src="./assets/github.svg" alt="">Bogdan</a>
+						</div>
+						<div style="width: 90px;">
+							<a style="font-size: 20px; display: flex; align-items: center; background-color: #dddddd; width: 100%; justify-content: space-between; padding: 0 10px; border-radius: 5px; color: black;  height: 60px;" href="https://github.com/barrydilan"><img src="./assets/github.svg" alt="">Harry</a>
+						</div>
+						<div style="width: 90px; height: 50px;">
+							<a style="font-size: 20px; display: flex; align-items: center; background-color: #dddddd; width: 100%; justify-content: space-between; padding: 0 10px; border-radius: 5px; color: black;  height: 60px; display: flex; justify-content: center;" href="https://rs.school/"><img style="width: 60%; object-fit: cover;" src="./assets/rs_school_logo.svg" alt=""></a>
+						</div>
+					</div>
 				</section>
-				<section>
-					<p>The '$ cat' command stands for 'concatenate'. Displays text from a text file into terminal</p>
-					<img src="./assets/Cat_preview.jpg" alt="">
-				</section>
-				<section>
-					<p>The '$ rm' command deletes specified file.</p>
-					<img src="./assets/Rm_preview.jpg" alt="">
-				</section>
-				<section>
-					<p>The '$ mkdir' creates a directory with specified name</p>
-					<img src="./assets/Mkdir_preview.png" alt="">
-				</section>
-				<section>
-					<p>The '$ cp' command stands for copy and needs specified target and destination to copy it</p>
-					<img src="./assets/Cp_preview.jpg" alt="">
-				</section>
-				<section><img src="./assets/wsl-gui-screenshot.png" alt=""></section>
-				<section><img src="./assets/Puppies.jpg" alt=""></section>
 			</div>
 		</div>
 
